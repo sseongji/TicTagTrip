@@ -1,0 +1,21 @@
+.header-index{
+    background-image: url(./images/main-img-wide.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+/* main>.main-hero{
+    background-image: url(./images/main-img-wide.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+} */
+
+.card-text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 100px;
+}
+/* .form-search{
+    height: 50px;
+} */
