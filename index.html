@@ -39,19 +39,21 @@
                             <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
                         </div> -->
                         <!-- 검색폼 -->
-                        <form class="d-flex form-search" role="search" method="get" action="search-result.html">
-                            <select class="form-select me-2" aria-label="region select1">
-                                <option selected>지역</option>
-                                <option value="1">서울특별시</option>
-                                <option value="2">경기도</option>
-                                <option value="3">강원도</option>
-                                <option value="4">충청도</option>
-                                <option value="5">전라도</option>
-                                <option value="6">경상도</option>
-                                <option value="7">제주특별자치도</option>
-                            </select>
-                            <input class="form-control me-2" type="search" placeholder="#휴양" aria-label="Search">
-                            <button class="btn btn-primary btn-success me-2" type="submit">Search</button>
+                        <form class="form-search" role="search" method="get" action="search-result.html">
+                            <div class="input-group mb-3 d-flex">
+                                <select class="form-select p-2" aria-label="region select1">
+                                    <option selected>지역</option>
+                                    <option value="1">서울특별시</option>
+                                    <option value="2">경기도</option>
+                                    <option value="3">강원도</option>
+                                    <option value="4">충청도</option>
+                                    <option value="5">전라도</option>
+                                    <option value="6">경상도</option>
+                                    <option value="7">제주특별자치도</option>
+                                </select>
+                                <input class="form-control flex-grow-1 p-2" type="search" placeholder="#휴양" aria-label="Search">
+                                <button class="btn btn-primary btn-success p-2" type="submit">Search</button>
+                            </div>
                         </form>
                     </div>
                 </div>
